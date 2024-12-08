@@ -29,16 +29,12 @@ flex-direction: row-reverse;
 }
 
 .card-container {
+  border: solid;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 20%;
-  padding-left: 10%;
+  margin: 0% 20%;
+  padding: 10%;
+  row-gap: 10px;
+  column-gap: 10px;
 }
 
-.GameBox {
-  margin-top: 20%;
-}
-
-img {
-
-}
